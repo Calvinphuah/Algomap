@@ -1,7 +1,7 @@
 class Solution:
     def findClosestNumber(self, nums: List[int]) -> int:
         # Goal: Return the number closest to 0 using abs too
-        # Intuition: use modulo, keep a max
+        # Intuition: use abs and keep the closest
         closest = nums[0]
 
         for n in nums:
